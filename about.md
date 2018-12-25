@@ -4,7 +4,7 @@ permalink: /about/
 title: "關於"
 ---
 
-GitHub 想要幫助開發者為自己選擇一個合適的開源授權，為此而製作的一個網站，你目前所瀏覽的是[GcsSloop](https://github.com/GcsSloop)以及其它小夥伴製作的漢化版，你可以 [點選這裡檢視英文原版](http://choosealicense.com)。
+GitHub 想要幫助開發者為自己選擇一個合適的開源授權，為此而製作的一個網站，你目前所瀏覽的是[GcsSloop](https://github.com/GcsSloop)以及其它小夥伴製作的漢化版，再由唐鳳轉換成為正體中文。你可以 [點選這裡檢視英文原版](http://choosealicense.com)。
 
 如果你已經知道自己在做什麼，有自己喜歡的許可授權，那麼說明你是一名偉大的開發者，我們並不想改變你的選擇，但是如果你在為選擇哪一種授權而煩惱，也許我們可以提供幫助。
 

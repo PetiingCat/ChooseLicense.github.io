@@ -2,15 +2,15 @@
 layout: default
 permalink: no-license/
 redirect_from: /licenses/no-license/
-title: 无开源协议
+title: 無開源授權
 description: "You're under no obligation to choose a license and it's your right not to include one with your code or project. But please note that opting out of open source licenses doesn't mean you're opting out of copyright law."
 ---
 
-选择退出开源软件协议并不意味着你加入了版权保护法。
+選擇退出開源軟體授權並不意味著你加入了版權保護法。
 
-你需要和你的律师检查你的项目是否受受法律保护，不过一般来说，没有许可证默认使用版权保护法，这意味着你保留所有权力，不允许任何人复制，分发或创建衍生作品。
+你需要和你的律師檢查你的專案是否受受法律保護，不過一般來說，沒有許可證預設使用版權保護法，這意味著你保留所有權力，不允許任何人複製，分發或建立衍生作品。
 
-如果你要退出开源软件协议你不需要做任何事情，但仍推荐你放置一个简单的版权声明。
+如果你要退出開源軟體授權你不需要做任何事情，但仍推薦你放置一個簡單的版權宣告。
 
 <div class="clearfix">
 <div class="license-body">
@@ -18,18 +18,18 @@ description: "You're under no obligation to choose a license and it's your right
 </div> <!-- /license-body -->
 </div>
 
-"无协议" 并不能保证不让别人使用你的代码，相反，[选择一个开源协议](/)可以在保护你版权的同时允许别人重复利用你的代码。如果你想要完全放弃版权的话，推荐使用  [The Unlicense](/licenses/#unlicense)。
+"無授權" 並不能保證不讓別人使用你的程式碼，相反，[選擇一個開源授權](/)可以在保護你版權的同時允許別人重複利用你的程式碼。如果你想要完全放棄版權的話，推薦使用  [The Unlicense](/licenses/#unlicense)。
 
-即便你没有放置许可协议，你所发布在某平台的源码会默认使用该平台协议，平台协议可能会默认授予或者限制某些权力。例如：如果你在GitHub平台发布源码，你必须接受 [GitHub服务条款](https://help.github.com/articles/github-terms-of-service/)，该条款默认允许他人查看和fork你的仓库。但不包括允许他人用你的代码做实验，修改和分享。 
+即便你沒有放置許可授權，你所釋出在某平臺的源碼會預設使用該平臺授權，平臺授權可能會預設授予或者限制某些權力。例如：如果你在GitHub平臺釋出源碼，你必須接受 [GitHub服務條款](https://help.github.com/articles/github-terms-of-service/)，該條款預設允許他人檢視和fork你的倉庫。但不包括允許他人用你的程式碼做實驗，修改和分享。 
 
-## 对于用户
+## 對於使用者
 
-如果你在GitHub上发现了一款软件没有放置开源协议，这可能意味着你没有使用、修改和分享软件的权力。虽然GitHub允许你查看、下载和fork这份代码，但并不意味着你拥有使用、修改和分享软件的权力，不论出于任何目的。
+如果你在GitHub上發現了一款軟體沒有放置開源授權，這可能意味著你沒有使用、修改和分享軟體的權力。雖然GitHub允許你檢視、下載和fork這份程式碼，但並不意味著你擁有使用、修改和分享軟體的權力，不論出於任何目的。
 
-如果你仍旧想要使用，你可以做如下选择：
+如果你仍舊想要使用，你可以做如下選擇：
 
-**请求作者添加许可协议。** 除非有明确的表示，否则没有开源协议可能仅仅是因为做者的疏忽。如果这个项目托管在GitHub上，你可以提交一个Issues向作者请求添加一个协议，甚至可以添加协议后提交一个合并请求(pull request)。 
+**請求作者新增許可授權。** 除非有明確的表示，否則沒有開源授權可能僅僅是因為做者的疏忽。如果這個專案託管在GitHub上，你可以提交一個Issues向作者請求新增一個授權，甚至可以新增授權後提交一個合併請求(pull request)。 
 
-**不要使用这个软件。** 寻找一个有开源协议的替代方案。
+**不要使用這個軟體。** 尋找一個有開源授權的替代方案。
 
-**协商一份私人协议** 建议请律师起草。
+**協商一份私人授權** 建議請律師起草。

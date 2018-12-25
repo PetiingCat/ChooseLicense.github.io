@@ -6,7 +6,7 @@ source: https://joinup.ec.europa.eu/community/eupl/og_page/european-union-public
 
 description: The “European Union Public Licence” (EUPL) is a copyleft free/open source software license created on the initiative of and approved by the European Commission in 22 official languages of the European Union.
 
-how: 1.在您的软件仓库根目录下创建一个文本文件(命名为 LICENSE 或 LICENSE.txt)。 <br/>2.复制协议正文到这个文本文件中。
+how: 1.在您的軟體倉庫根目錄下建立一個文字檔案(命名為 LICENSE 或 LICENSE.txt)。 <br/>2.複製授權正文到這個文字檔案中。
 
 note: The European Commission recommends taking the additional step of adding a [boilerplate notice](https://joinup.ec.europa.eu/sites/default/files/ckeditor_files/files/EUPL%201_1%20Guidelines%20EN%20Joinup.pdf#page=17) to the top of each file.
 

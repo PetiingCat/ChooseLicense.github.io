@@ -6,7 +6,7 @@ hidden: false
 
 description: A license with no conditions whatsoever which dedicates works to the public domain. Unlicensed works, modifications, and larger works may be distributed under different terms and without source code.
 
-how: 1.在您的软件仓库根目录下创建一个文本文件(命名为 LICENSE 或 LICENSE.txt)。 <br/>2.复制协议正文到这个文本文件中。
+how: 1.在您的軟體倉庫根目錄下建立一個文字檔案(命名為 LICENSE 或 LICENSE.txt)。 <br/>2.複製授權正文到這個文字檔案中。
 
 using:
   - youtube-dl: https://github.com/rg3/youtube-dl/blob/master/LICENSE

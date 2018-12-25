@@ -5,9 +5,9 @@ source: https://opensource.org/licenses/MIT
 featured: true
 hidden: false
 
-description: 这是一份简短而宽松的协议，只提供了版权保护和声明，它授予他人复制，修改，合并，发布，分发，授权和/或销售 本软件的副本的权力。
+description: 這是一份簡短而寬鬆的授權，只提供了版權保護和宣告，它授予他人複製，修改，合併，釋出，分發，授權和/或銷售 本軟體的副本的權力。
 
-how: 1.在您的软件仓库根目录下创建一个文本文件(命名为 LICENSE 或 LICENSE.txt)。 <br/>2.复制协议正文到这个文本文件中。<br/>3.将协议中 [year] 替换为当前年份，将 [fullname] 替换为你(们)的名字或者组织名字。
+how: 1.在您的軟體倉庫根目錄下建立一個文字檔案(命名為 LICENSE 或 LICENSE.txt)。 <br/>2.複製授權正文到這個文字檔案中。<br/>3.將授權中 [year] 替換為當前年份，將 [fullname] 替換為你(們)的名字或者組織名字。
 
 using:
   - jQuery: https://github.com/jquery/jquery/blob/master/LICENSE.txt

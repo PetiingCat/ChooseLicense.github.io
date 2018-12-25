@@ -6,7 +6,7 @@ source: https://www.eclipse.org/legal/epl-v10.html
 
 description: This commercially-friendly copyleft license provides the ability to commercially license binaries; a modern royalty-free patent license grant; and the ability for linked works to use other licenses, including commercial ones.
 
-how: 1.在您的软件仓库根目录下创建一个文本文件(命名为 LICENSE 或 LICENSE.txt)。 <br/>2.复制协议正文到这个文本文件中。
+how: 1.在您的軟體倉庫根目錄下建立一個文字檔案(命名為 LICENSE 或 LICENSE.txt)。 <br/>2.複製授權正文到這個文字檔案中。
 
 using:
   - Clojure: https://github.com/clojure/clojure/blob/master/epl-v10.html

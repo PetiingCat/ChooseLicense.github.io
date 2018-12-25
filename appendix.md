@@ -1,18 +1,18 @@
 ---
 layout: default
 permalink: /appendix/
-title: 附录
+title: 附錄
 class: license-types
 ---
 
-你可以在下面表格中查看所有协议信息，也可以到 [ChooseLicense](https://github.com/ChooseLicense/ChooseLicense.github.io) 查看网站源码，协助我们完善这个网站。
+你可以在下面表格中檢視所有授權資訊，也可以到 [ChooseLicense](https://github.com/ChooseLicense/ChooseLicense.github.io) 檢視網站源碼，協助我們完善這個網站。
 
-如果你想选择一个许可协议 **[建议从首页开始选择](/)**，首页会为你推荐适合你的许可协议。
+如果你想選擇一個許可授權 **[建議從首頁開始選擇](/)**，首頁會為你推薦適合你的許可授權。
 
 <table border style="font-size: xx-small">
 {% assign types = "permissions|conditions|limitations" | split: "|" %}
 <tr>
-  <th scope="col" style="text-align: center">开源协议</th>
+  <th scope="col" style="text-align: center">開源授權</th>
   {% assign seen_tags = '' %}
   {% for type in types %}
     {% assign rules = site.data.rules[type] | sort: "label" %}
@@ -23,29 +23,29 @@ class: license-types
       {% capture seen_tags %}{{ seen_tags | append:rule_obj.tag }}{% endcapture %}
       <th scope="col" style="text-align: center; width:7%"><a href="#{{ rule_obj.tag }}">
       {% if rule_obj.label == 'Commercial Use' %}
-        商业用途
+        商業用途
       {% elsif rule_obj.label == 'Distribution' %}
-        分发
+        分發
       {% elsif rule_obj.label == 'Modification' %}
         修改
       {% elsif rule_obj.label == 'Patent Use' %}
-        专利授权
+        專利授權
       {% elsif rule_obj.label == 'Private Use' %}
         私用
       {% elsif rule_obj.label == 'Disclose Source' %}
-        公开源码
+        公開源碼
       {% elsif rule_obj.label == 'License and Copyright Notice' %}
-        放置许可协议与版权信息
+        放置許可授權與版權資訊
       {% elsif rule_obj.label == 'Network Use is Distribution' %}
-        使用网络分发
+        使用網路分發
       {% elsif rule_obj.label == 'Same License' %}
-        使用相同协议
+        使用相同授權
       {% elsif rule_obj.label == 'State Changes' %}
-        声明变更
+        宣告變更
       {% elsif rule_obj.label == 'Hold Liable' %}
-        承担责任
+        承擔責任
       {% elsif rule_obj.label == 'Trademark Use' %}
-        使用商标
+        使用商標
       {% else %}
         {{ rule_obj.label }}
       {% endif %}
@@ -84,13 +84,13 @@ class: license-types
 {% endfor %}
 </table>
 
-## 说明
+## 說明
 
-<p>开源协议中标注 <span class="license-permissions"><span class="license-sprite"></span></span> <b>允许</b> 的条目表示允许进行这样的行为，否则可能表示不允许。</p>
+<p>開源授權中標註 <span class="license-permissions"><span class="license-sprite"></span></span> <b>允許</b> 的條目表示允許進行這樣的行為，否則可能表示不允許。</p>
 
-<p>开源协议中标注 <span class="license-conditions"><span class="license-sprite"></span></span> <b>要求</b> 的条目为使用者必须遵循的内容。</p>
+<p>開源授權中標註 <span class="license-conditions"><span class="license-sprite"></span></span> <b>要求</b> 的條目為使用者必須遵循的內容。</p>
 
-<p>开源协议中标注 <span class="license-limitations"><span class="license-sprite"></span></span> <b>禁止</b> 的内容通常为作者免责协议，有时也表示明确禁止授予使用者专利或者商标使用权。</p>
+<p>開源授權中標註 <span class="license-limitations"><span class="license-sprite"></span></span> <b>禁止</b> 的內容通常為作者免責授權，有時也表示明確禁止授予使用者專利或者商標使用權。</p>
 
 <dl>
 {% assign seen_tags = '' %}
@@ -103,29 +103,29 @@ class: license-types
     {% endif %}
     <dt id="{{ req }}">
       {% if rule_obj.label == 'Commercial Use' %}
-        商业用途
+        商業用途
       {% elsif rule_obj.label == 'Distribution' %}
-        分发
+        分發
       {% elsif rule_obj.label == 'Modification' %}
         修改
       {% elsif rule_obj.label == 'Patent Use' %}
-        专利授权
+        專利授權
       {% elsif rule_obj.label == 'Private Use' %}
         私用
       {% elsif rule_obj.label == 'Disclose Source' %}
-        公开源码
+        公開源碼
       {% elsif rule_obj.label == 'License and Copyright Notice' %}
-        放置许可协议与版权信息
+        放置許可授權與版權資訊
       {% elsif rule_obj.label == 'Network Use is Distribution' %}
-        使用网络分发
+        使用網路分發
       {% elsif rule_obj.label == 'Same License' %}
-        使用相同协议
+        使用相同授權
       {% elsif rule_obj.label == 'State Changes' %}
-        声明变更
+        宣告變更
       {% elsif rule_obj.label == 'Hold Liable' %}
-        承担责任
+        承擔責任
       {% elsif rule_obj.label == 'Trademark Use' %}
-        使用商标
+        使用商標
       {% else %}
         {{ rule_obj.label }}
       {% endif %}

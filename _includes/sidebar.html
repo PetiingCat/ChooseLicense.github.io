@@ -1,9 +1,9 @@
 <div class="sidebar">
 
-  <a href="#" data-clipboard-target="#license-text" data-proofer-ignore="true" class="js-clipboard-button button">复制 协议内容 到剪切板</a>
+  <a href="#" data-clipboard-target="#license-text" data-proofer-ignore="true" class="js-clipboard-button button">複製 授權內容 到剪下板</a>
     
   <div class="how-to-apply">
-    <h3>如何添加这个协议</h3>
+    <h3>如何新增這個授權</h3>
     <p>
       {{ page.how | markdownify | remove: '<p>' | remove: '</p>' }}
     </p>
@@ -14,7 +14,7 @@
     {% endif %}
     {% assign xgpl = false %}
     {% if page.spdx-id contains 'GPL' %}{% assign xgpl = true %}{% endif %}
-    <p class="note"><strong>可选: </strong> 添加 <strong><code>{{ page.spdx-id }}</code>{% if xgpl %}+{% endif %}</strong>{% if xgpl %} (或 <strong><code>{{ page.spdx-id }}</code></strong> 以禁止新版本内容){% endif %} 到你的软件描述信息中，(例如, <a href="https://docs.npmjs.com/files/package.json#license">Node.js</a>, <a href="http://guides.rubygems.org/specification-reference/#license=">Ruby</a>, 和 <a href="http://doc.crates.io/manifest.html#package-metadata">Rust</a>)。 这可以让别人明确了解该软件是遵循哪种协议发布的。</p>
+    <p class="note"><strong>可選: </strong> 新增 <strong><code>{{ page.spdx-id }}</code>{% if xgpl %}+{% endif %}</strong>{% if xgpl %} (或 <strong><code>{{ page.spdx-id }}</code></strong> 以禁止新版本內容){% endif %} 到你的軟體描述資訊中，(例如, <a href="https://docs.npmjs.com/files/package.json#license">Node.js</a>, <a href="http://guides.rubygems.org/specification-reference/#license=">Ruby</a>, 和 <a href="http://doc.crates.io/manifest.html#package-metadata">Rust</a>)。 這可以讓別人明確瞭解該軟體是遵循哪種授權釋出的。</p>
   </div>
 
   {% if page.source %}
@@ -28,7 +28,7 @@
 
   {% if page.using %}
   <div class="projects-with-license">
-    <h3>哪些项目正在使用本协议?</h3>
+    <h3>哪些專案正在使用本授權?</h3>
     <ul>
       {% for using in page.using %}
         {% for hash in using %}

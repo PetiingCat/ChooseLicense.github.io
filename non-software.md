@@ -1,23 +1,23 @@
 ---
-title: 非软件类协议
+title: 非軟體類授權
 layout: default
 permalink: /non-software/
 ---
 
-开源软件协议同样适用于非软件类项目，并且通常来说是更好的选择。尤其是当项目可编辑且拥有源版本时，例如：[开源硬件设计](http://www.oshwa.org/definition/chinese/)， 选择一个 [开源软件协议](/licenses/).
+開源軟體授權同樣適用於非軟體類專案，並且通常來說是更好的選擇。尤其是當專案可編輯且擁有源版本時，例如：[開源硬體設計](http://www.oshwa.org/definition/chinese/)， 選擇一個 [開源軟體授權](/licenses/).
 
-### 数据、多媒体、 或者其它.
+### 資料、多媒體、 或者其它.
 
-数据、多媒体、网站、文章等内容可以使用知识共享协议(Creative Commons，也称为CC协议)，[CC0-1.0](/licenses/cc0-1.0/), [CC-BY-4.0](/licenses/cc-by-4.0/), 和 [CC-BY-SA-4.0](/licenses/cc-by-sa-4.0/) 均属于知识共享协议，请注意： CC-BY-4.0 和 CC-BY-SA-4.0 不可以用于软件。你可以到 [creativecommons.org](https://creativecommons.org/choose/) 选择一个合适的协议。
+資料、多媒體、網站、文章等內容可以使用知識共享授權(Creative Commons，也稱為CC授權)，[CC0-1.0](/licenses/cc0-1.0/), [CC-BY-4.0](/licenses/cc-by-4.0/), 和 [CC-BY-SA-4.0](/licenses/cc-by-sa-4.0/) 均屬於知識共享授權，請注意： CC-BY-4.0 和 CC-BY-SA-4.0 不可以用於軟體。你可以到 [creativecommons.org](https://creativecommons.org/choose/) 選擇一個合適的授權。
 
-### 文档
+### 文件
 
-所有开源软件协议和知识共享协议都适用于软件文档。如果你的软件和文档使用了不同的协议，请注意文档中示例代码的协议属于开源软件协议。
+所有開源軟體授權和知識共享授權都適用於軟體文件。如果你的軟體和文件使用了不同的授權，請注意文件中示例程式碼的授權屬於開源軟體授權。
 
-### 字体
+### 字型
 
-[SIL 开源字体协议](/licenses/ofl-1.1/) 保持字体开源同时允许在任何地方免费使用。
+[SIL 開源字型授權](/licenses/ofl-1.1/) 保持字型開源同時允許在任何地方免費使用。
 
-### 综合项目
+### 綜合專案
 
-如果你的项目中包含软件和其它内容，你可以放置多个协议，只要你明确标示各个部分使用的协议即可，你可以参照[本网站的协议](https://github.com/ChooseLicense/ChooseLicense.github.io/#license)。
+如果你的專案中包含軟體和其它內容，你可以放置多個授權，只要你明確標示各個部分使用的授權即可，你可以參照[本網站的授權](https://github.com/ChooseLicense/ChooseLicense.github.io/#license)。

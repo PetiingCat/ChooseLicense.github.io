@@ -1,44 +1,44 @@
 permissions:
-- description: 该软件和衍生物可用于商业用途。
+- description: 該軟體和衍生物可用於商業用途。
   label: Commercial Use
   tag: commercial-use
-- description: 该软件允许被修改。
+- description: 該軟體允許被修改。
   label: Modification
   tag: modifications
-- description: 你可以分发此该软件。
+- description: 你可以分發此該軟體。
   label: Distribution
   tag: distribution
 - description: 你可以自己使用。
   label: Private Use
   tag: private-use
-- description: 提供明确的专利授权。
+- description: 提供明確的專利授權。
   label: Patent Use
   tag: patent-use
 
 conditions:
-- description: 明确的放置许可协议和版权信息。
+- description: 明確的放置許可授權和版權資訊。
   label: License and Copyright Notice
   tag: include-copyright
-- description: 对代码修改部分进行声明。
+- description: 對程式碼修改部分進行宣告。
   label: State Changes
   tag: document-changes
-- description: 分发软件时必须提供源代码。
+- description: 分發軟體時必須提供源碼。
   label: Disclose Source
   tag: disclose-source
-- description: 软件用户拥有获取源代码副本的权利。
+- description: 軟體使用者擁有獲取源碼副本的權利。
   label: Network Use is Distribution
   tag: network-use-disclose
-- description: 修改后的软件必须按照相同的协议发布，在特殊情况下，可以使用类似或者相关的协议。
+- description: 修改後的軟體必須按照相同的授權釋出，在特殊情況下，可以使用類似或者相關的授權。
   label: Same License
   tag: same-license
 
 limitations:
-- description: 该许可协议明确规定它不授予你商标使用权，即便没有明确进行说明，它也可能不授予你任何商标权。
+- description: 該許可授權明確規定它不授予你商標使用權，即便沒有明確進行說明，它也可能不授予你任何商標權。
   label: Trademark Use
   tag: trademark-use
-- description: 提供软件者，软件作者以及许可证拥有者不对软件造成的后果承担任何责任。
+- description: 提供軟體者，軟體作者以及許可證擁有者不對軟體造成的後果承擔任何責任。
   label: Hold Liable
   tag: no-liability
-- description: 该许可协议明确规定，它不授予您贡献者专利的任何权利。
+- description: 該許可授權明確規定，它不授予您貢獻者專利的任何權利。
   label: Patent Use
   tag: patent-use
